@@ -5,13 +5,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel ="stylesheet" type="text/css" href="css/style.css">
 </head>
+<jsp:include page="islogin.jsp"></jsp:include>
 <body>
-<form action="validate.jsp" method="post">
-username:<input type="text" name="username"><br/>
-password:<input type="password" name="password"><br/>
-<input type="submit" ><br/>
-</form>
+modifystuinfo.jsp
 </body>
 </html>
